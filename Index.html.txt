@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KRUMBZ – NUGZ 2 KRUMBZ</title>
+  <style>
+    :root {
+      --pink: #ff5bac;
+      --royal: #0047ab;
+      --bg: #fff;
+      --dark: #222;
+    }
+    body {
+      margin: 0; font-family: Arial, sans-serif;
+      background: var(--bg); color: var(--dark);
+    }
+    header {
+      background: var(--royal); color: #fff;
+      padding: 2rem; text-align: center;
+    }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { margin: 0.5rem 0 0; font-size: 1.2rem; }
+    .menu {
+      max-width: 800px; margin: 2rem auto;
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem; padding: 0 1rem;
+    }
+    .item {
+      border: 1px solid #ddd; border-radius: 8px;
+      overflow: hidden; text-align: center;
+      transition: transform .2s;
+    }
+    .item:hover { transform: scale(1.03); }
+    .item img {
+      width: 100%; aspect-ratio: 1 / 1;
+      object-fit: cover;
+    }
+    .item h3 { margin: .5rem 0 0.25rem; }
+    .item p { margin: 0.25rem 0 0.75rem; color: var(--royal); font-weight: bold; }
+    .area {
+      background: var(--pink); color: #fff;
+      padding: 2rem 1rem; text-align: center;
+    }
+    .area h2, .area p { margin: 0 0 1rem; }
+    .area ul { list-style: none; padding: 0; margin: 0; }
+    .area li { margin: 0.5rem 0; }
+    footer {
+      background: var(--dark); color: #fff;
+      padding: 1rem; text-align: center;
+    }
+    a { color: var(--pink); text-decoration: none; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      header p { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>KRUMBZ</h1>
+    <p>NUGZ 2 KRUMBZ</p>
+  </header>
+
+  <section class="menu">
+    <div class="item">
+      <img src="https://via.placeholder.com/400?text=Gelato+41" alt="Gelato 41">
+      <h3>Gelato 41</h3>
+      <p>$160/zip</p>
+    </div>
+    <div class="item">
+      <img src="https://via.placeholder.com/400?text=Runtz" alt="Runtz">
+      <h3>Runtz</h3>
+      <p>$150/zip</p>
+    </div>
+    <div class="item">
+      <img src="https://via.placeholder.com/400?text=Pre-rolls" alt="Infused Pre-rolls">
+      <h3>Infused Pre‑rolls</h3>
+      <p>$25/ea</p>
+    </div>
+    <!-- Add more items here -->
+  </section>
+
+  <section class="area">
+    <h2>Delivery Area</h2>
+    <p>Serving Houston & Surrounding Cities:</p>
+    <ul>
+      <li>Houston, TX</li>
+      <li>Pasadena, TX</li>
+      <li>Sugar Land, TX</li>
+      <li>The Woodlands, TX</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Contact us on <a href="https://signal.me/#p/+1XXXXXXXXXX" target="_blank">Signal</a>, <a href="#">Telegram</a>, or <a href="#">Discord</a>.</p>
+    <p>© 2025 KRUMBZ</p>
+  </footer>
+</body>
+</html>
